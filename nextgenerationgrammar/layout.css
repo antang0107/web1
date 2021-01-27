@@ -1,0 +1,50 @@
+#grid{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 200px 1fr;
+  grid-template-areas:
+  "header header"
+  "sider contents";
+  min-height: 100vh;
+  grid-gap: 3px;
+}
+.header{
+  grid-area:header;
+  margin: 0px;
+  background-color:#00cc00;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border : 4px #009900 solid;
+  color:#222222!important;
+}
+.sider{
+  grid-area:sider;
+  padding : 5px 30px;
+  margin : 0px;
+  background-color:#009900;
+  border:3px #00cc00 solid;
+  font-size:25px;
+}
+.contents{
+  grid-area:contents;
+  padding: 20px;
+  border:3px #00cc00 solid;
+  background-color: #dddddd;
+}
+.header h1{
+  margin: 0px;
+  width:100%;
+  font-size:50px;
+}
+.header h1 a{
+    color:#222222!important;
+    text-decoration: none;
+}
+a{
+  text-decoration: underline;
+  color : black;
+}
+p{
+  font-size: 18px;
+}
