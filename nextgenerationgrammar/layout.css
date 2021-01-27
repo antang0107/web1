@@ -48,7 +48,7 @@ a{
 p{
   font-size: 18px;
 }
-@media(max-width:1000px){
+@media(max-width:480px){
   #grid{
     display: block;
   }
